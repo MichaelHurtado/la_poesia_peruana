@@ -97,7 +97,7 @@ function keyPressed() {
 function mouseClicked(){
   num=1-num;
   if(words[5].x<=mouseX && mouseX<=words[5].x+330 && words[5].y-35<=mouseY && mouseY<=words[5].y+5){
-    window.open("http://localhost/la_poesia_peruana/parricidio.html", "_self");
+    window.open("https://michaelhurtado.github.io/la_poesia_peruana/parricidio.html", "_self");
   }
   else{
     for (let word of words) word.spread()
