@@ -16,6 +16,7 @@ function preload()
   imgr[2] = loadImage("verastegui_chiquito.jpg");
   imgr[3] = loadImage("blanca_varela.png");
   imgr[4] = loadImage("vallejo_preso.png");
+  imgr[5] = loadImage("vallejo_preso.png");
 }
 
 
@@ -110,7 +111,7 @@ function drawGra(_w, _h)
 	return gra;
 }
 function init(){
-  img=imgr[int(random(5))];	
+  img=imgr[int(random(6))];	
 	const ratio = min(width / img.width, height / img.height) * 0.75;
 	
 	imageMode(CENTER);
