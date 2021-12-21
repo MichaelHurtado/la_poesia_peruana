@@ -16,7 +16,7 @@ function preload()
   imgr[2] = loadImage("verastegui_chiquito.jpg");
   imgr[3] = loadImage("blanca_varela.png");
   imgr[4] = loadImage("vallejo_preso.png");
-  imgr[5] = loadImage("vallejo_preso.png");
+  imgr[5] = loadImage("heraud.jpg");
 }
 
 
